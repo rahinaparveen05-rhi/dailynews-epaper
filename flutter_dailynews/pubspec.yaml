@@ -1,0 +1,37 @@
+name: daily_news
+description: DailyNews — A digital broadsheet ePaper reader inspired by The Hindu ePaper experience.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # PDF Reader with pinch-to-zoom, pan, and page navigation
+  syncfusion_flutter_pdfviewer: ^27.1.58
+
+  # Local device storage for bookmarks & reading preferences
+  shared_preferences: ^2.3.2
+
+  # Offline PDF download & local file system storage
+  dio: ^5.7.0
+  path_provider: ^2.1.4
+
+  # Firebase Storage integration for hosting edition PDFs
+  firebase_core: ^3.6.0
+  firebase_storage: ^12.3.2
+
+  # Date formatting & UI icons
+  intl: ^0.19.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

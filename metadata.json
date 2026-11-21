@@ -1,0 +1,8 @@
+{
+  "name": "DailyNews ePaper",
+  "description": "Digital broadsheet newspaper reader and complete Flutter & Dart mobile application project inspired by The Hindu ePaper.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
